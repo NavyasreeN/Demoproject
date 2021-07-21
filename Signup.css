@@ -24,13 +24,15 @@ font-family: 'Numans', sans-serif;
 
 .form{
    border:midnightblue; 
-   background: rgb(255, 255, 255);
+   background-color: rgba(0,0,0,0.5) !important;
    border-radius: 10px;
    margin-top: 40px;
    padding: 20px 20px 20px 20px; 
 }
 
 label{
+    text-decoration: none;
+    color: #fff;
     font-weight: bolder;
 }
 
