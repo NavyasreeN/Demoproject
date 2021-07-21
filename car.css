@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+    cursor: pointer;
+    font-family:  sans-serif; 
+ }
+ 
+body
+{
+    width: 100%;
+    min-height: 100vh;
+    background: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    color: white;
+    animation: header 2s ease-in;
+}
+
+@keyframes header
+{
+0%{
+    transform: translateY(-100%);
+}
+}
+nav li
+{
+    align-content: center;
+    display: inline-block;
+    margin: 10px 72px;
+    font-weight: 600;
+}
+nav li a
+{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar nav
+{    
+    background: rgb(200, 212, 25);
+    text-align: center;
+}
+.menu-bar nav ul{
+    display: block;
+    color: #fff;
+}
+.menu-bar nav ul li{
+    width: 120px ;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar nav li:hover{
+    background: #344b34;
+    border-radius: 4px;
+}
+
+.sub-menu-1{
+    display: none;
+}
+.menu-bar nav li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.main
+{
+    width: 100%;
+    display: flex;
+}
+
+.content{
+    width: 50%;
+    margin-top: 8%;
+    margin-left: 5%;
+    color: white;
+    overflow: hidden;
+  
+    animation: content 2s ease-in-out;
+}
+.content h1
+{
+    font-size: 80px;
+    margin-bottom: 1%;
+    letter-spacing: 8px;
+}
+.content h3
+{
+    font-size: 25px;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+span
+{
+    color: yellow;
+}
+.content p
+{
+ font-size: 20px;
+ margin-bottom: 3%;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button
+{
+    padding: 15px;
+    background: transparent;
+    color: whitesmoke;
+    font-size: 17px;
+    border-radius: 20px;
+}
+button:hover
+{
+    background: orange;
+}
+.image
+{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    z-index: -1;
+}
+img{
+    width: 60rem; 
+
+    animation: car 5s ease-in-out;   
+}
+ @keyframes car
+{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(-220%);
+    }
+} 
+
+@media screen and (max-width:1200px)
+{
+    .content{
+        width: 100%;
+        text-align: center;
+       
+    }
+}
+.content  h1{ 
+    margin-bottom: 5%;
+}
+.content h3{
+
+    margin-bottom: 5%;
+}
+.content p
+{
+    margin-bottom: 5%;
+} 
+.image{
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 40rem;
+}
+
+@media screen and (max-width:576px)
+{
+    .content{
+        width: 100%;
+        text-align: center;
+       
+    }
+}
+.image{
+    width: 100%;
+    position: absolute;
+    bottom: -5%;
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 20rem;
+}
+.footer
+
+    {    
+        background: rgb(200, 212, 25);
+        text-align: center;
+        margin-top: 10%;
+   
+    }

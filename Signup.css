@@ -1,0 +1,52 @@
+*{margin: 0px; padding: 0px;box-sizing: border-box; font-style: normal;}
+
+body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+    margin-top: 5%;
+}
+
+.tophead{
+    color:white;
+    height: 7%;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.form{
+   border:midnightblue; 
+   background: rgb(255, 255, 255);
+   border-radius: 10px;
+   margin-top: 40px;
+   padding: 20px 20px 20px 20px; 
+}
+
+label{
+    font-weight: bolder;
+}
+
+.button{
+    background: rgb(139, 139, 238);
+}
+
+.button a{
+    text-decoration:none;
+    color:rgb(250, 248, 248);
+}
+
+.button:hover{
+    background: yellow;
+}
+
+.button a:hover{
+    color:black;
+}
