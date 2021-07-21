@@ -27,7 +27,8 @@ font-family: 'Numans', sans-serif;
 }
 
 form .textfield{
-    text-decoration: aliceblue;
+    text-decoration: none;
+    color: #fff;
     font-weight: bolder;
     position: relative;
     align-items: center;
@@ -36,7 +37,7 @@ form .textfield{
 
 .forgot,.forgot a{  
     text-decoration: none;
-    color:black;
+    color: #fff;
     font-size: 16px;
     margin: 10px;
     margin-left: 0px;
